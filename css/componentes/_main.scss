@@ -26,6 +26,11 @@ main div div button a{
 /* TRABAJOS REALIZADOS */
 .main-trabajos-realizados div img{
     padding: 20px;
+    
+    &:hover{
+        transform: scale(1.2);
+        transition: 2s;
+    }
 }
 .main-trabajos-realizados div h1,
 .main-sobre-nosotros h1,
@@ -67,5 +72,30 @@ main div div button a{
     &:hover{
         background-color: nth($clrs-blue, 4 );
         color: nth($clrs-blue, 1 );
+    }
+}
+.contenedor-absoluto {
+    display: flex;
+    @extend %row;
+    margin: 200px 0px;
+    div{
+       height: 200px;
+       width: 200px;
+       position: absolute;
+    }
+}
+.contenedor-absoluto div:nth-child(1) img{
+        width: 200px;
+        height: 200px;
+}
+.contenedor-absoluto div:nth-child(2){
+    background-color: nth($clrs-blue, 4 );
+    p{
+        text-align: center;
+        font-size: 50px;
+      }
+    &:hover{
+        transform: translateX(250px);
+        transition: 3s;
     }
 }

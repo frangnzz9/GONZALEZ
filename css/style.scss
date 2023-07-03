@@ -1,0 +1,21 @@
+@import './base/variables';
+@import './base/listas';
+@import './base/maps';
+@import './base/mixin';
+@import './base/extend';
+
+@import './componentes/header';
+@import './componentes/aside';
+@import './componentes/main';
+@import './componentes/footer';
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Carlito', sans-serif;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}

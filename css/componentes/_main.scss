@@ -1,0 +1,71 @@
+/* INDEX */
+.container-main-index{
+    padding: map-get($objetos-index , pd-1 );
+    @extend %column;
+}
+main div div button{
+    background-color: nth($clrs-blue , 2 );
+    padding: map-get($objetos-index , pd-2 );
+    margin: map-get($objetos-index, mrg);
+    border-radius: map-get($objetos-index, brd-r);
+    &:hover{
+        background-color: nth($clrs-blue , 1 );
+        color: nth($clrs-blue , 4 );
+    }
+}
+.container-button{
+    @extend %row;
+}
+main div div button a{
+    color: nth($byn, 2 );
+}
+.card-body-index{
+   border: map-get($objetos-index, brd);
+}
+
+/* TRABAJOS REALIZADOS */
+.main-trabajos-realizados div img{
+    padding: 20px;
+}
+.main-trabajos-realizados div h1,
+.main-sobre-nosotros h1,
+.main-informacion h1,
+.main-contacto h1{
+    text-align: center;
+    margin: 3rem;
+    color: nth($clrs-blue, 1 );
+}
+.main-sobre-nosotros p {
+       margin: 2rem;
+       background-color: nth($clrs-blue, 4 );
+       padding: 2rem;
+       border: 2px solid nth($clrs-blue, 1 );
+}
+.row-cajas{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.main-informacion div .caja {
+    padding: 10px;
+    border: 2px solid nth($clrs-blue, 1 );
+    margin: 10px;
+}
+.color-caja{
+    background-color: nth($clrs-blue, 4 );
+}
+.formulario-mio{
+    margin: 50px 200px;
+}
+@media (max-width:750px){
+    .formulario-mio{
+        margin: 50px 100px;
+    }
+}
+.color-button-mio{
+    background-color: nth($clrs-blue, 1 );
+    &:hover{
+        background-color: nth($clrs-blue, 4 );
+        color: nth($clrs-blue, 1 );
+    }
+}

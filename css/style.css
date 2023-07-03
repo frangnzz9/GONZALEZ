@@ -1,0 +1,175 @@
+.container-button, aside div div h1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main-index {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-icono {
+  width: 150px;
+}
+
+.bg-nv-index {
+  background-color: #4180ab;
+}
+
+.enlaces-nv-index a {
+  color: white;
+}
+.enlaces-nv-index a:hover {
+  color: #4180ab;
+  background-color: #e4ebf0;
+}
+
+#header-index {
+  padding: 0px;
+}
+
+aside div div h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Urbanist", sans-serif;
+  color: #333333;
+  text-shadow: 3px 5px 5px #e4ebf0;
+  padding: 10px 0px;
+}
+
+.banner {
+  background-image: url(../img/banner2.jpg);
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 450px) {
+  aside div div h1 {
+    font-size: 50px;
+  }
+}
+/* INDEX */
+.container-main-index {
+  padding: 50px 0px;
+}
+
+main div div button {
+  background-color: #8ab3cf;
+  padding: 1.5rem;
+  margin: 50px;
+  border-radius: 10px;
+}
+main div div button:hover {
+  background-color: #4180ab;
+  color: #e4ebf0;
+}
+
+main div div button a {
+  color: black;
+}
+
+.card-body-index {
+  border: 2px black solid;
+}
+
+/* TRABAJOS REALIZADOS */
+.main-trabajos-realizados div img {
+  padding: 20px;
+}
+
+.main-trabajos-realizados div h1,
+.main-sobre-nosotros h1,
+.main-informacion h1,
+.main-contacto h1 {
+  text-align: center;
+  margin: 3rem;
+  color: #4180ab;
+}
+
+.main-sobre-nosotros p {
+  margin: 2rem;
+  background-color: #e4ebf0;
+  padding: 2rem;
+  border: 2px solid #4180ab;
+}
+
+.row-cajas {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.main-informacion div .caja {
+  padding: 10px;
+  border: 2px solid #4180ab;
+  margin: 10px;
+}
+
+.color-caja {
+  background-color: #e4ebf0;
+}
+
+.formulario-mio {
+  margin: 50px 200px;
+}
+
+@media (max-width: 750px) {
+  .formulario-mio {
+    margin: 50px 100px;
+  }
+}
+.color-button-mio {
+  background-color: #4180ab;
+}
+.color-button-mio:hover {
+  background-color: #e4ebf0;
+  color: #4180ab;
+}
+
+footer {
+  background-color: #4180ab;
+  padding: 50px;
+}
+
+footer ul li a {
+  color: white;
+  padding: 10px;
+}
+footer ul li a:hover {
+  color: #4180ab;
+  background-color: #e4ebf0;
+  padding: 5px;
+}
+
+footer h3,
+footer ul li {
+  color: white;
+}
+
+footer iframe {
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+@media (max-width: 400px) {
+  footer iframe {
+    width: 250px;
+    height: 250px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Carlito", sans-serif;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

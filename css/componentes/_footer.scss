@@ -1,0 +1,26 @@
+footer{
+    background-color: nth($clrs-blue, 1 );
+    padding: 50px;
+}
+footer ul li a {
+    color: nth($byn, 1 );
+    padding: 10px;
+    &:hover{
+        color: nth($clrs-blue , 1 );
+        background-color: nth($clrs-blue , 4 );
+        padding: 5px;
+    }
+}
+footer  h3,
+footer ul li{
+    color: nth($byn , 1 );
+ }
+footer iframe{
+    @include ancho-alto(350px,350px);
+    margin-top: 50px;
+}
+@media (max-width:400px) {
+    footer iframe{
+        @include ancho-alto(250px,250px)
+    }
+}

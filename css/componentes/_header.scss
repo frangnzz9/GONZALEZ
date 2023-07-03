@@ -1,0 +1,17 @@
+.img-icono {
+    width: $size-icono;
+}
+.bg-nv-index{
+    background-color: nth($clrs-blue, 1 );
+}
+.enlaces-nv-index a{
+    color: nth($byn, 1 );
+    &:hover{
+        color: nth($clrs-blue , 1 );
+        background-color: nth($clrs-blue , 4);
+    }
+}
+
+#header-index{
+    padding: 0px;
+}

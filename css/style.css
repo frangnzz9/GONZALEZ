@@ -162,7 +162,7 @@ main div div button a {
   font-size: 50px;
 }
 .contenedor-absoluto div:nth-child(2):hover {
-  transform: translateX(250px);
+  transform: translateX(200px);
   transition: 3s;
 }
 

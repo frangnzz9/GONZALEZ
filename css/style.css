@@ -1,4 +1,4 @@
-.contenedor-absoluto, .container-button, section div div h1 {
+.contenedor-absoluto, .container-button {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -37,35 +37,33 @@ header:hover .img-icono {
   padding: 0px;
 }
 
-section div div h1 {
-  text-align: center;
-  font-size: 70px;
-  font-family: "Urbanist", sans-serif;
-  color: #333333;
-  text-shadow: 3px 5px 5px #e4ebf0;
-  padding: 10px 0px;
-}
-
 .banner {
-  background-image: url(../img/banner2.jpg);
+  background-image: url(../img/banner4.jpg);
   width: 100%;
-  height: 200px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  background-attachment: fixed;
 }
 
 @media (max-width: 450px) {
   section div div h1 {
     font-size: 50px;
   }
+  .banner {
+    height: 400px;
+  }
 }
 /* INDEX */
 .container-main-index {
-  padding: 50px 0px;
+  padding: 10px 0px;
 }
 
 main div div button {
   background-color: #8ab3cf;
   padding: 1.5rem;
-  margin: 50px;
+  margin: 30px;
   border-radius: 10px;
 }
 main div div button:hover {
@@ -93,13 +91,16 @@ main div div button a {
 .main-trabajos-realizados div h2,
 .main-sobre-nosotros h2,
 .main-informacion h2,
-.main-contacto h2 {
+.main-contacto h2,
+.container-main-index h1 {
   text-align: center;
-  margin: 3rem;
+  margin: 4rem;
   color: #4180ab;
+  font-weight: 700;
 }
 
 .main-sobre-nosotros p {
+  font-size: large;
   margin: 2rem;
   background-color: #e4ebf0;
   padding: 2rem;
@@ -174,6 +175,22 @@ main div div button a {
     justify-content: center;
   }
 }
+.container-main-index h2 {
+  font-size: x-large;
+  text-align: center;
+  margin: 30px 0px;
+  padding: 50px;
+  background-color: #bdd1de;
+}
+.container-main-index h2 a {
+  text-decoration: none;
+  color: #4180ab;
+}
+.container-main-index p a {
+  text-decoration: none;
+  color: #4180ab;
+}
+
 footer {
   background-color: #4180ab;
   padding: 50px;

@@ -32,10 +32,10 @@ main div div button a{
         transition: 2s;
     }
 }
-.main-trabajos-realizados div h1,
-.main-sobre-nosotros h1,
-.main-informacion h1,
-.main-contacto h1{
+.main-trabajos-realizados div h2,
+.main-sobre-nosotros h2,
+.main-informacion h2,
+.main-contacto h2{
     text-align: center;
     margin: 3rem;
     color: nth($clrs-blue, 1 );
@@ -58,6 +58,7 @@ main div div button a{
 }
 .color-caja{
     background-color: nth($clrs-blue, 4 );
+    margin: 20px;
 }
 .formulario-mio{
     margin: 50px 200px;
@@ -100,3 +101,10 @@ main div div button a{
     }
 }
 
+@media (min-width:750px) and (max-width:1000px){
+    .img-inicio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

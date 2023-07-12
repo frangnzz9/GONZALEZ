@@ -1,4 +1,4 @@
-.contenedor-absoluto, .container-button, aside div div h1 {
+.contenedor-absoluto, .container-button, section div div h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -37,7 +37,7 @@ header:hover .img-icono {
   padding: 0px;
 }
 
-aside div div h1 {
+section div div h1 {
   text-align: center;
   font-size: 70px;
   font-family: "Urbanist", sans-serif;
@@ -53,7 +53,7 @@ aside div div h1 {
 }
 
 @media (max-width: 450px) {
-  aside div div h1 {
+  section div div h1 {
     font-size: 50px;
   }
 }
@@ -90,10 +90,10 @@ main div div button a {
   transition: 2s;
 }
 
-.main-trabajos-realizados div h1,
-.main-sobre-nosotros h1,
-.main-informacion h1,
-.main-contacto h1 {
+.main-trabajos-realizados div h2,
+.main-sobre-nosotros h2,
+.main-informacion h2,
+.main-contacto h2 {
   text-align: center;
   margin: 3rem;
   color: #4180ab;
@@ -120,6 +120,7 @@ main div div button a {
 
 .color-caja {
   background-color: #e4ebf0;
+  margin: 20px;
 }
 
 .formulario-mio {
@@ -166,6 +167,13 @@ main div div button a {
   transition: 3s;
 }
 
+@media (min-width: 750px) and (max-width: 1000px) {
+  .img-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 footer {
   background-color: #4180ab;
   padding: 50px;
@@ -181,7 +189,7 @@ footer ul li a:hover {
   padding: 5px;
 }
 
-footer h3,
+footer h4,
 footer ul li {
   color: white;
 }

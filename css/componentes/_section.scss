@@ -1,4 +1,4 @@
-aside div div h1{
+section div div h1{
     @extend %row;
     text-align: center;
     font-size: 70px;
@@ -14,7 +14,7 @@ aside div div h1{
     
  }
 @media (max-width:450px){
-    aside div div h1{
+    section div div h1{
         font-size: 50px;
 }
 }

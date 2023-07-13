@@ -68,7 +68,7 @@ main div div button {
 }
 main div div button:hover {
   background-color: #4180ab;
-  color: #e4ebf0;
+  color: #d0e1ee;
 }
 
 main div div button a {
@@ -102,7 +102,7 @@ main div div button a {
 .main-sobre-nosotros p {
   font-size: large;
   margin: 2rem;
-  background-color: #e4ebf0;
+  background-color: #d0e1ee;
   padding: 2rem;
   border: 2px solid #4180ab;
 }
@@ -120,24 +120,24 @@ main div div button a {
 }
 
 .color-caja {
-  background-color: #e4ebf0;
+  background-color: #d0e1ee;
   margin: 20px;
 }
 
 .formulario-mio {
-  margin: 50px 200px;
+  margin: 50px 250px;
 }
 
 @media (max-width: 750px) {
   .formulario-mio {
-    margin: 50px 100px;
+    margin: 25px 25px;
   }
 }
 .color-button-mio {
   background-color: #4180ab;
 }
 .color-button-mio:hover {
-  background-color: #e4ebf0;
+  background-color: #d0e1ee;
   color: #4180ab;
 }
 
@@ -157,7 +157,7 @@ main div div button a {
 }
 
 .contenedor-absoluto div:nth-child(2) {
-  background-color: #e4ebf0;
+  background-color: #d0e1ee;
 }
 .contenedor-absoluto div:nth-child(2) p {
   text-align: center;
@@ -196,14 +196,17 @@ footer {
   padding: 50px;
 }
 
+footer ul li {
+  padding: 10px 0px;
+}
 footer ul li a {
   color: white;
-  padding: 10px;
 }
 footer ul li a:hover {
   color: #4180ab;
-  background-color: #e4ebf0;
-  padding: 5px;
+  background-color: #d0e1ee;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 footer h4,
@@ -223,14 +226,25 @@ footer iframe {
     height: 250px;
   }
 }
+.redes-contacto h4 {
+  padding-left: 25px;
+  font-weight: 700;
+}
+
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
   font-family: "Carlito", sans-serif;
   list-style-type: none;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+}
+
+img, iframe {
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

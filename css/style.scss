@@ -15,7 +15,12 @@
     text-decoration: none;
     font-family: 'Carlito', sans-serif;
     list-style-type: none;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
 }
+img, iframe {
+    max-width: 100%;
+    height: auto;
+  }

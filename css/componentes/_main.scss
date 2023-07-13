@@ -64,13 +64,12 @@ main div div button a{
     margin: 20px;
 }
 .formulario-mio{
-    margin: 50px 200px;
+    margin: 50px 250px;
 }
 @media (max-width:750px){
     .formulario-mio{
-        margin: 50px 100px;
+        margin: 25px 25px;
     }
-    
 }
 .color-button-mio{
     background-color: nth($clrs-blue, 1 );

@@ -2,13 +2,16 @@ footer{
     background-color: nth($clrs-blue, 1 );
     padding: 50px;
 }
-footer ul li a {
+footer ul li {
+    padding: 10px 0px;
+    a{
     color: nth($byn, 1 );
-    padding: 10px;
     &:hover{
         color: nth($clrs-blue , 1 );
         background-color: nth($clrs-blue , 4 );
-        padding: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        }
     }
 }
 footer  h4,
@@ -23,4 +26,8 @@ footer iframe{
     footer iframe{
         @include ancho-alto(250px,250px)
     }
+}
+.redes-contacto h4{
+    padding-left: 25px;
+    font-weight: 700;
 }

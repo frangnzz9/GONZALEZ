@@ -1,11 +1,6 @@
 .img-icono {
     width: $size-icono;
 }
-header:hover .img-icono{
-        transform: scale(1.1);
-        transition: 1.2s;
-    
-}
 .bg-nv-index{
     background-color: nth($clrs-blue, 1 );
 }
